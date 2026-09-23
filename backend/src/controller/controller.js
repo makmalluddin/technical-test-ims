@@ -30,7 +30,7 @@ const createSimulasi = async (req, res) => {
       status: 'success',
       message: 'Simulasi kredit dibuat',
       data: {
-        kontrak: contractData,
+        contractData,
         paymentSchedule
       }
     });
